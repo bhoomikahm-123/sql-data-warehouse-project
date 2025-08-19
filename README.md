@@ -43,7 +43,7 @@ By exploring this repository, you’ll gain hands-on experience in:
 
 All tools and datasets used here are **open-source or free**:  
 - **Datasets**: Provided CSV files (ERP & CRM data sources).  
-- **SQL Server Express**: Database engine for hosting the warehouse.  
+- **MySQL Server**: Database engine for hosting the warehouse.  
 - **SQL Server Management Studio (SSMS)**: GUI for managing the SQL Server database.  
 - **GitHub**: Version control and collaboration.  
 - **DrawIO**: Used for diagrams (data architecture, flows, models).  
@@ -75,30 +75,25 @@ Outputs include **reports, KPIs, and insights** ready for business stakeholders.
 
 ---
 
-## 📂 Repository Structure  
+## 📂 Repository Structure:  
 
-data-warehouse-project/
-│
-├── datasets/ # Raw ERP & CRM datasets (CSV files)
-├── docs/ # Documentation & diagrams
-│ ├── data_architecture.drawio
-│ ├── data_flow.drawio
-│ ├── etl.drawio
-│ ├── data_models.drawio
-│ ├── data_catalog.md
-│ ├── naming-conventions.md
-│
-├── scripts/ # SQL scripts for ETL
-│ ├── bronze/ # Data ingestion scripts
-│ ├── silver/ # Transformation scripts
-│ ├── gold/ # Data modeling scripts
-│
-├── tests/ # Data quality checks & validation
-├── README.md # Project overview
-├── LICENSE # License file
-├── .gitignore # Git ignored files
-└── requirements.txt # Project dependencies
-
+- datasets/ → Raw ERP & CRM datasets (CSV files)
+- docs/ → Documentation & diagrams
+  - data_architecture.drawio
+  - data_flow.drawio
+  - etl.drawio
+  - data_models.drawio
+  - data_catalog.md
+  - naming-conventions.md
+- scripts/ → SQL scripts for ETL
+  - bronze/ → Data ingestion scripts
+  - silver/ → Transformation scripts
+  - gold/ → Data modeling scripts
+- tests/ → Data quality checks & validation
+- README.md → Project overview
+- LICENSE → License file
+- .gitignore → Git ignored files
+- requirements.txt → Project dependencies
 
 ---
 
@@ -114,7 +109,7 @@ You are free to use, modify, and distribute it with proper attribution.
 I’m passionate about **data engineering and analytics** and created this project as part of my portfolio to share knowledge and showcase real-world data solutions.  
 
 📌 Connect with me on:  
-- [LinkedIn ](https://www.linkedin.com/in/bhoomika-hm-b41681291/)) 
+- [LinkedIn ](https://www.linkedin.com/in/bhoomika-hm-b41681291/) 
 - [GitHub](https://github.com/bhoomikahm-123) 
 
 ---
